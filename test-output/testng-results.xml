@@ -2,12 +2,12 @@
 <testng-results skipped="9" failed="0" total="9" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="RSAutomation Test Suite" duration-ms="131" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+  <suite name="RSAutomation Test Suite" duration-ms="153" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
     <groups>
     </groups>
-    <test name="RSAutomation Regression Test" duration-ms="131" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+    <test name="RSAutomation Regression Test" duration-ms="153" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
       <class name="com.qa.rsautomation.tests.HomePageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -45,53 +45,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyhomepageTitleTest()[pri:1, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyhomepageTitleTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="verifyhomepageTitleTest()[pri:1, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyhomepageTitleTest" duration-ms="16" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepageTitleTest -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyhomepageLogoTest()[pri:2, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyhomepageLogoTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyhomepageLogoTest()[pri:2, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyhomepageLogoTest" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepageLogoTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyclickLoginTest()[pri:3, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyclickLoginTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyclickLoginTest -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="verifyclickLoginTest()[pri:3, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyclickLoginTest" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclickLoginTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.rsautomation.tests.HomePageTest -->
       <class name="com.qa.rsautomation.tests.ProductSearchPageTest">
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyloggeduserTest()[pri:1, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="verifyloggeduserTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="verifyloggeduserTest()[pri:1, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="verifyloggeduserTest" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloggeduserTest -->
-        <test-method status="SKIP" signature="searchProductTest()[pri:2, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="searchProductTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductTest -->
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -129,29 +125,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifypartNumberTest()[pri:3, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="verifypartNumberTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="verifypartNumberTest()[pri:3, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="verifypartNumberTest" duration-ms="15" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifypartNumberTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="searchProductTest()[pri:2, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="searchProductTest" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        </test-method> <!-- searchProductTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.rsautomation.tests.ProductSearchPageTest -->
       <class name="com.qa.rsautomation.tests.LoginPageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -189,29 +189,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyloginpageheaderTest()[pri:1, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="verifyloginpageheaderTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="verifyloginpageheaderTest()[pri:1, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="verifyloginpageheaderTest" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginpageheaderTest -->
-        <test-method status="SKIP" signature="enterLoginDetailsTest()[pri:2, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="enterLoginDetailsTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterLoginDetailsTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="enterLoginDetailsTest()[pri:2, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="enterLoginDetailsTest" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginDetailsTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.rsautomation.tests.LoginPageTest -->
       <class name="com.qa.rsautomation.tests.BasketSummaryPageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -249,11 +249,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyBasketTest()[pri:1, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="verifyBasketTest" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="verifyBasketTest()[pri:1, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="verifyBasketTest" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBasketTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:06:35Z" finished-at="2019-10-29T21:06:35Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:10:39Z" finished-at="2019-10-29T21:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
