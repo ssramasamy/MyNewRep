@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [RSAutomation Test Suite]]">
+  <test name="RSAutomation Regression Test">
+    <classes>
+      <class name="com.qa.rsautomation.tests.HomePageTest"/>
+      <class name="com.qa.rsautomation.tests.LoginPageTest"/>
+      <class name="com.qa.rsautomation.tests.ProductSearchPageTest"/>
+      <class name="com.qa.rsautomation.tests.BasketSummaryPageTest"/>
+    </classes>
+  </test> <!-- RSAutomation Regression Test -->
+  <test name="RSAutomation Regression Test(failed)">
+    <classes>
+      <class name="com.qa.rsautomation.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.rsautomation.tests.HomePageTest -->
+      <class name="com.qa.rsautomation.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.rsautomation.tests.LoginPageTest -->
+      <class name="com.qa.rsautomation.tests.ProductSearchPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.rsautomation.tests.ProductSearchPageTest -->
+      <class name="com.qa.rsautomation.tests.BasketSummaryPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyBasketTest"/>
+        </methods>
+      </class> <!-- com.qa.rsautomation.tests.BasketSummaryPageTest -->
+    </classes>
+  </test> <!-- RSAutomation Regression Test(failed) -->
+</suite> <!-- Failed suite [Failed suite [RSAutomation Test Suite]] -->

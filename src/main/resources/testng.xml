@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RSAutomation Test Suite" verbose="1" >
+  <test name="RSAutomation Regression Test" >
+    <classes>
+      <class name="com.qa.rsautomation.tests.HomePageTest"/>
+      <class name="com.qa.rsautomation.tests.LoginPageTest"/>
+      <class name="com.qa.rsautomation.tests.ProductSearchPageTest"/>
+      <class name="com.qa.rsautomation.tests.BasketSummaryPageTest"/>
+    </classes>
+ </test>
+</suite>
