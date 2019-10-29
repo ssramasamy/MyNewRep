@@ -40,18 +40,18 @@ public class TestBase {
 			String browser =  prop.getProperty("browser");
 			if(browser.equals("chrome"))
 			{
-				System.setProperty("webdriver.chrome.driver","C:/Selenium/AutomationSelenium/exe/ChromeDriver.exe");
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\User\\git\\RSAutomationTest\\exe\\ChromeDriver.exe");
 				driver = new ChromeDriver();
 			}
 			
 			else if((browser.equals("firefox")))
 			{
-				System.setProperty("webdriver.gecko.driver","C:/Selenium/AutomationSelenium/exe/GeckoDriver.exe");
+				System.setProperty("webdriver.gecko.driver","C:\\Users\\User\\git\\RSAutomationTest\\exe\\GeckoDriver.exe");
 				driver= new FirefoxDriver();
 			}
 			else if((browser.equals("InternetExplorer")))
 			{				
-				System.setProperty("webdriver.ie.driver","C:/Selenium/AutomationSelenium/exe/IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver","C:\\Users\\User\\git\\RSAutomationTest\\exe\\IEDriverServer.exe");
 				driver= new InternetExplorerDriver();
 			}
 				driver.manage().window().maximize();
