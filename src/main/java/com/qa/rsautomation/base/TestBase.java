@@ -25,7 +25,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream fis = new FileInputStream(
-					" C:\\Users/User/git/RSAutomationTest/src/main/java/com/qa/rsautomation/config/config.properties");
+					" C:\\Users\\User\\git\\RSAutomationTest\\src\\main\\java\\com\\qa\\rsautomation\\config\\config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
