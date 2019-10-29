@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [RSAutomation Test Suite]">
-  <test name="RSAutomation Regression Test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
       <class name="com.qa.rsautomation.tests.HomePageTest"/>
-      <class name="com.qa.rsautomation.tests.LoginPageTest"/>
-      <class name="com.qa.rsautomation.tests.ProductSearchPageTest"/>
-      <class name="com.qa.rsautomation.tests.BasketSummaryPageTest"/>
     </classes>
-  </test> <!-- RSAutomation Regression Test -->
-  <test name="RSAutomation Regression Test(failed)">
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
     <classes>
       <class name="com.qa.rsautomation.tests.HomePageTest">
         <methods>
@@ -19,27 +16,6 @@
           <include name="verifyhomepageLogoTest"/>
         </methods>
       </class> <!-- com.qa.rsautomation.tests.HomePageTest -->
-      <class name="com.qa.rsautomation.tests.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyloginpageheaderTest"/>
-          <include name="enterLoginDetailsTest"/>
-        </methods>
-      </class> <!-- com.qa.rsautomation.tests.LoginPageTest -->
-      <class name="com.qa.rsautomation.tests.ProductSearchPageTest">
-        <methods>
-          <include name="verifypartNumberTest"/>
-          <include name="verifyloggeduserTest"/>
-          <include name="searchProductTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.rsautomation.tests.ProductSearchPageTest -->
-      <class name="com.qa.rsautomation.tests.BasketSummaryPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyBasketTest"/>
-        </methods>
-      </class> <!-- com.qa.rsautomation.tests.BasketSummaryPageTest -->
     </classes>
-  </test> <!-- RSAutomation Regression Test(failed) -->
-</suite> <!-- Failed suite [RSAutomation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
