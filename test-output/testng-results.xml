@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" total="3" passed="0">
+<testng-results skipped="9" failed="0" total="9" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="101" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+  <suite name="RSAutomation Test Suite" duration-ms="170" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="101" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+    <test name="RSAutomation Regression Test" duration-ms="170" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:29Z">
       <class name="com.qa.rsautomation.tests.HomePageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -45,39 +45,219 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyhomepageTitleTest()[pri:1, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="verifyhomepageTitleTest" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+        <test-method status="SKIP" signature="verifyhomepageTitleTest()[pri:1, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyhomepageTitleTest" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepageTitleTest -->
-        <test-method status="SKIP" signature="verifyhomepageLogoTest()[pri:2, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="verifyhomepageLogoTest" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyhomepageLogoTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyclickLoginTest()[pri:3, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="verifyclickLoginTest" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+        <test-method status="SKIP" signature="verifyhomepageLogoTest()[pri:2, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyhomepageLogoTest" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepageLogoTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifyclickLoginTest()[pri:3, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="verifyclickLoginTest" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyclickLoginTest -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@2f7c7260]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:11:51Z" finished-at="2019-10-29T21:11:51Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.HomePageTest@7c75222b]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.rsautomation.tests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.rsautomation.tests.ProductSearchPageTest">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyloggeduserTest()[pri:1, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="verifyloggeduserTest" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloggeduserTest -->
+        <test-method status="SKIP" signature="searchProductTest()[pri:2, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="searchProductTest" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.rsautomation.base.TestBase.initialisation(TestBase.java:41)
+	at com.qa.rsautomation.tests.ProductSearchPageTest.setUp(ProductSearchPageTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="verifypartNumberTest()[pri:3, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="verifypartNumberTest" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypartNumberTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.ProductSearchPageTest@27f674d]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.qa.rsautomation.tests.ProductSearchPageTest -->
+      <class name="com.qa.rsautomation.tests.LoginPageTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.rsautomation.base.TestBase.initialisation(TestBase.java:41)
+	at com.qa.rsautomation.tests.LoginPageTest.setUp(LoginPageTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyloginpageheaderTest()[pri:1, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="verifyloginpageheaderTest" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginpageheaderTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:28Z" finished-at="2019-10-29T21:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="enterLoginDetailsTest()[pri:2, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="enterLoginDetailsTest" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginDetailsTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.LoginPageTest@4c203ea1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rsautomation.tests.LoginPageTest -->
+      <class name="com.qa.rsautomation.tests.BasketSummaryPageTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="setUp" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qa.rsautomation.base.TestBase.initialisation(TestBase.java:41)
+	at com.qa.rsautomation.tests.BasketSummaryPageTest.setUp(BasketSummaryPageTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyBasketTest()[pri:1, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="verifyBasketTest" duration-ms="8" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasketTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.rsautomation.tests.BasketSummaryPageTest@1d251891]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-29T21:30:29Z" finished-at="2019-10-29T21:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rsautomation.tests.BasketSummaryPageTest -->
+    </test> <!-- RSAutomation Regression Test -->
+  </suite> <!-- RSAutomation Test Suite -->
 </testng-results>
