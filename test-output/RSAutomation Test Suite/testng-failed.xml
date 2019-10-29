@@ -13,25 +13,29 @@
     <classes>
       <class name="com.qa.rsautomation.tests.HomePageTest">
         <methods>
+          <include name="verifyclickLoginTest"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="verifyhomepageTitleTest"/>
+          <include name="verifyhomepageLogoTest"/>
         </methods>
       </class> <!-- com.qa.rsautomation.tests.HomePageTest -->
       <class name="com.qa.rsautomation.tests.LoginPageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="verifyloginpageheaderTest"/>
+          <include name="enterLoginDetailsTest"/>
         </methods>
       </class> <!-- com.qa.rsautomation.tests.LoginPageTest -->
       <class name="com.qa.rsautomation.tests.ProductSearchPageTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="verifypartNumberTest"/>
+          <include name="verifyloggeduserTest"/>
+          <include name="searchProductTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.rsautomation.tests.ProductSearchPageTest -->
       <class name="com.qa.rsautomation.tests.BasketSummaryPageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="verifyBasketTest"/>
         </methods>
